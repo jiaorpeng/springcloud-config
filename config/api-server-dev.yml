@@ -10,8 +10,8 @@ spring:
       url: jdbc:mysql://127.0.0.1:3306/xm_skeleton?useUnicode=true&characterEncoding=utf-8&useSSL=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
       username: root
       password: root1234
-      type: com.alibaba.druid.pool.DruidDataSource
-      driverClassName: com.mysql.jdbc.Driver
+      # type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.jdbc.Driver
       logSlowSql: true
       # Druid StatViewServlet配置
       druid:
