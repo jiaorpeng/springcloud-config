@@ -27,7 +27,9 @@ spring:
         allow:
         # IP黑名单
       deny:
-
+feign: 
+  hystrix: 
+    enabled: true
 eureka:
   instance:
     # 每隔10s发送一次心跳
